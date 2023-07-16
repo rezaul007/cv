@@ -99,6 +99,7 @@ body {
   position: relative;
   color: #999999;
   opacity: 0.9;
+  background: repeating-linear-gradient(45deg, rgba(125, 249, 243, 0.5), white 1px);
 }
 
 h1,
@@ -1498,9 +1499,9 @@ body {
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
   background: #0bceaf;
-  -webkit-transition: 3s all;
-  -webkit-animation-duration: 3s;
-  -webkit-animation-name: animationProgress;
+  transition: 3s all;
+  animation-duration: 3s;
+  animation-name: animationProgress;
 }
 
 .candidatos .parcial .partidas {
@@ -1920,9 +1921,9 @@ body {
   margin: 60px 0;
 }
 
-.testimonial.2-testimonial .client-item p {
+.testimonial .client-item p {
   padding: 0 0px;
-  margin: 20px 0;
+  margin: 20px 0
 }
 
 .testimonial .client-item {
@@ -2225,12 +2226,12 @@ body {
     Mobile Nav
 ==============
 */
-.old {
-  /*==============
+
+/*==============
             Overlay            
   ================== */
-  /*  Navigation Menu */
-}
+/*  Navigation Menu */
+
 
 .old .navbar-collapse {
   position: fixed;
