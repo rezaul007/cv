@@ -99,6 +99,7 @@ body {
   position: relative;
   color: #999999;
   opacity: 0.9;
+  background: -o-repeating-linear-gradient(45deg, rgba(125, 249, 243, 0.35), white 1px);
   background: repeating-linear-gradient(45deg, rgba(125, 249, 243, 0.35), white 1px);
 }
 
